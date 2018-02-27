@@ -11,4 +11,9 @@ public class HomeController {
 	public String home(Model model) {
 		return "index";
 	}
+	
+	@RequestMapping(value = "/login")
+	public String loginUser(Model model) {
+		return "index";
+	}
 }
